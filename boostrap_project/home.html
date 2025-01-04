@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Sangram Tech</title>
+</head>
+
+
+<!-- ENquiry Modal -->
+<div class="modal fade" id="enModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Our Syllabus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-3">
+                <ul class="m-0 ps-3 pe-3 ">
+                    <li class="mb-3 "><i class="fa-solid fa-circle-check me-1"></i>Front-End:- HTML, CSS, BOOTSRAP,
+                        JAVASCRIPT, REACT JS</li>
+                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Back-End:- CORE JAVA, Advance
+                        JAVA,Spring Framework</li>
+                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>DataBase:- MYSQL</li>
+                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Aptitude</li>
+                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Soft Skills & Comminication</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ENquiry Modal -->
+<div class="modal fade" id="regdemo">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register For Demo</h5>
+                <button type="button " class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-3 pt-0">
+                <form action="" class="bannerform ">
+                    <h3>Register Your Demo Lecture..!</h3>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">EMail</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">phone</label>
+                        <input type="phone" class="form-control">
+                    </div>
+                    <div class="mt-2 pb-0">
+                        <button>Register now</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button mt-0" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -----header-------- -->
+<header class="container-fluid px-5 py-2 position-sticky top-0 bg-white shadow-lg">
+    <div class="container bg-white ">
+        <div class="row align-item-center">
+            <figure class="col-lg-6  col-md-12 col-sm-12 col-es-12 text-lg-start text-center">
+                <img src="images\logo (2).svg" alt="" style="height:100px">
+            </figure>
+            <div class="col-lg-6 pt-4 ">
+                <div class="btn-outer text-end d-flex gap-3 justify-content-lg-end justify-content-sm-center ">
+                    <button class="emailbtn"><i class="fa-solid fa-envelope me-1"></i>Stay with us</button>
+                    <button class="callbtn"><i class="fa-solid fa-phone  gap-3 justify-content me-1"></i>Contact
+                        us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ---------FORM--------- -->
+<section class="container-fluid py-lg-5 py-sm-4 py-3 ">
+    <div class="container">
+        <div class="row justify-content-between gy-4 align-item-center">
+            <div class="col-lg-6 pt-5">
+                <div class="bannercontent">
+                    <h1>Make a carrier <br> in <span>coding</span></h1>
+                    <p>JAVA FullStack Course so good, you only pay-after-placement</p>
+                    <ul class="m-0 p-0 ">
+                        <li class="mb-3 "><i class="fa-solid fa-circle-check me-1"></i>Specialization:Java FullStack
+                        </li>
+                        <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Get Higher package above 4 LPA
+                        </li>
+                        <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Every month new batches</li>
+                    </ul>
+                    <div class="bannercontentbtn d-flex gap-4">
+                        <button data-bs-toggle="modal" data-bs-target="#regdemo">Register for demo lecture</button>
+                        <button data-bs-toggle="modal" data-bs-target="#enModal"><i
+                                class="fa-solid fa-download me-1"></i>Our Syllabus</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5  ">
+                <form action="" class="bannerform shadow-lg">
+                    <h3>Register Your Demo Lecture..!</h3>
+                    <p>Every month new batches for demo ... you can pay after DEMO session..!</p>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">EMail</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">phone</label>
+                        <input type="phone" class="form-control">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <button>Register now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container shadow-lg mt-5 countersection">
+
+        <div class="row row-cols-lg-5 row-cols-md-2 row-cols-2 p-4 ">
+            <div class="col">
+                <h2>100+</h2>
+                <p>Teaching Staf</p>
+            </div>
+            <div class="col">
+                <h2>5000+</h2>
+                <p>Student Placed</p>
+            </div>
+            <div class="col">
+                <h2>1000+</h2>
+                <p>Companies</p>
+            </div>
+            <div class="col">
+                <h2>8am-8pm</h2>
+                <p>Class timing</p>
+            </div>
+            <div class="col">
+                <h2>Every Month</h2>
+                <p>New batch started</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="container-fluid  py-5 ">
+    <div class="container  features-section shadow-lg">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2>Features of Our class</h2>
+                <p>The most intensive, practically oriented coding courses equipped with hands-on experience courses to
+                    fulfill your ambitions and uplift your career.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h1.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>Assignment & <br>coding tests</h4>
+                        <p>Identify your logic</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h2.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>Get a <br>Certification</h4>
+                        <p>certificate available</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h3.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>live classes & <br>Recordings</h4>
+                        <p>online classes or lectures</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h4.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>download <br>video lectures</h4>
+                        <p>keep lecture in gallary</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h5.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>Company level<br>Projects</h4>
+                        <p>Project preparation</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 d-flex align-item-start gap-3 h1">
+                    <img src="images\h6.svg" alt="">
+                    <div class="bg-white ">
+                        <h4>Doubt clearing<br>Sessions</h4>
+                        <p>clear queries and doubts</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center mt-2 pb-0">
+            <button class=" btn btn-custom  mb-4">Register your class</button>
+        </div>
+    </div>
+</section>
+<section class="container-fluid option-section py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2 class="text-center">Top career options in <br>Coding</h2>
+                <p class="text-center">Sangram tech Hub offers extensive list of services to help you become Job ready.
+                </p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class=" col-lg-3 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3  align-item-start gap-3 h2 shadow-lg">
+                    <img src="images\o1.svg" alt="" class="shadow-lg mb-4">
+                    <div class="bg-white ">
+                        <h4 class="mb-4">Software Designer</h4>
+                        <p class="fs-6">A software designer, known as a software engineer, is a professional who creates
+                            computer programs to improve people's lives. </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-12 pt-2 ">
+                <div class="bg-white p-3  align-item-start gap-3 h2 shadow-lg">
+                    <img src="images\o2.svg" alt="" class="shadow-lg mb-4">
+                    <div class="bg-white ">
+                        <h4 class="mb-4">software Tester</h4>
+                        <p class="fs-6">A professional who ensures that software functions as intended and meets the
+                            requirements before it is released to the public.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3  align-item-start gap-3 h2 shadow-lg">
+                    <img src="images\o3.svg" alt="" class="shadow-lg mb-4">
+                    <div class="bg-white ">
+                        <h4 class="mb-4">Front-end Developer</h4>
+                        <p class="fs-6"> Responsible for the visual appearance of a website or web application with
+                            html, css, javascript, react. create the user interface (UI). </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3 align-item-start gap-3 h2 shadow-lg">
+                    <img src="images\o4.svg" alt="" class="shadow-lg mb-4">
+                    <div class="bg-white ">
+                        <h4 class="mb-4">Back-End Developer</h4>
+                        <p class="fs-6">A programmer who creates, maintains,and debugs the back end of applications and
+                            systems using several backend languages.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- CERTIFICATION SECTION -->
+
+<section class="container-fluid py-lg-5 py-sm-4 py-3 cert">
+    <div class="container Certification">
+        <div class="row justify-content-between gy-4 align-item-center d-flex certi_info">
+            <div class="col-lg-5 ms-lg-4">
+                <div class="mt-5 lg-mb-3 mb-1 certi_info_desc ">
+                    <div class="">
+                        <h2>Get Certified</h2>
+                        <p>Become java fullstack certified and demonstrate your technical proficiency with java products
+                            and solutions</p>
+                    </div>
+                </div>
+                <div class="col-12 pt-3">
+                    <div class="bg-white p-3 d-flex align-items-start gap-3 shadow-lg rounded-2">
+                        <div class="w-50 mt-4 me-4">
+                            <img src="images\c1.svg" style="width:100%; " alt="">
+                        </div>
+                        <div class="bg-white">
+                            <h4>Official And Verify</h4>
+                            <p>Certificate verification is the process of confirming the authenticity of a digital
+                                certificate or educational certificate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pt-3">
+                    <div class="bg-white p-3 d-flex align-items-start gap-3 rounded-2">
+                        <div class="w-50 mt-5 me-1">
+                            <img src="images\c2.svg" style="width:80%; " alt="">
+                        </div>
+                        <div class="bg-white">
+                            <h4>Easily Shareable</h4>
+                            <p>Content that's easily shareable is content that people like, comment on, and share.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 pt-3">
+                    <div class="bg-white p-3 d-flex align-items-start gap-3 shadow-lg rounded-2">
+                        <div class="w-50 mt-5">
+                            <img src="images\c3.svg" style="width:100%; " alt="">
+                        </div>
+
+                        <div class="bg-white p-3">
+                            <h4>Career Shifting</h4>
+                            <p>A career shift, also known as a career transition or change, is the process of finding
+                                and pursuing a new career</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-4 mb-3">
+                    <div class="text-center">
+                        <button class="px-5 py-2 shadow-lg rounded-2">Book Free Class</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-lg-4 me-lg-5 shadow--lg-lg ">
+                <form action="" class="certificate shadow-lg mt-lg-5 rounded-2 ">
+                    <img src="images\certificate.jpg" class="w-100 h-auto py-4 me-sm-4 " alt="">
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ---------------- -->
+
+<section class="container-fluid  Curriculum py-5">
+    <div class="container bg-white shadow-lg pt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-sm-1 text-center">
+                <h2 class="fw-bold">Curriculum of Our <br> Sangram Tech</h2>
+                <p class="py-3">
+                    The Full Stack Web Development Syllabus PDF typically contains a detailed curriculum,
+                    which includes both front-end and back-end topics.
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center tabs">
+            <div class="col-lg-8 col-12">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item me-lg-2" role="presentation">
+                        <button class="nav-link bg-pink active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">java</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="true">front-end</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="true">back-end</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-database-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-database" type="button" role="tab" aria-controls="pills-database"
+                            aria-selected="true">database</button>
+                    </li>
+                </ul>
+                <hr my-3>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>core java</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>advanced Java</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>JDBC</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Servlet</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>JSP</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>HTML</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>CSS</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>jQuery</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>AJAX</li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>react js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>CORE JAVA </li>
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Advance JAVA</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>Spring Framework</li>
+                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-database" role="tabpanel" aria-labelledby="pills-database-tab">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="m-0 p-0">
+                                    <li class="mb-3"><i class="fa-solid fa-circle-check me-1"></i>MySQL</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------learn------------- -->
+
+<section class class="container-fluid py-5 ">
+    <div class="container learn py-5">
+        <div class="">
+            <h2 class="fw-bold pb-2">Why Learn JAVA FullStack</h2>
+            <p>It provides a versatile skillset, enabling you to work on both the front-end and back-end of web applications</p>
+        </div>
+            <div class="row about">
+        <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+            <div class="bg-white p-3  align-item-start gap-3">
+                <div class="   align-item-start gap-3  ">
+                    <img src="images\learn1.svg" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-2">Learn From Industry Expert</h4>
+                        <p class="py-2">Industry experts are influential figures in a particular industry who can provide valuable insights, feedback, and advice. They can help you grow professionally and personally.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+                <div class="bg-white p-3  align-item-start gap-3">
+                    <img src="images\learn2.svg" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-2">Structured & Latest Curriculum</h4>
+                        <p class="py-2">A structured curriculum is aligned with educational standards and guidelines, while a latent curriculum refers to the rules, values, and norms that prevail on a campus</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+            <div class="bg-white p-3  align-item-start gap-3">
+                    <img src="images\learn3.svg" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-2">Highly-Engaging Live Classes</h4>
+                        <p class="py-2">Active learning is an instructional approach in which students actively participate in the learning process, as opposed to sitting quietly and listening. Common strategies include question-and-answer sessions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+            <div class="bg-white p-3 align-item-start gap-3">
+                    <img src="images\learn4.svg" class="pb-2" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-2">Work on Real Project</h4>
+                        <p class="">websites or pieces of software that are still in the process of being created and have not yet been released to the public. On the other hand, they may also be used to refer to finished projects that are being used.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+            <div class="bg-white p-3  align-item-start gap-3">
+                    <img src="images\learn5.svg" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-3">100% Job Assistance</h4>
+                        <p class="">100% Placement Assistance means that a particular organization is going to provide you with support for Placements. Here are a few Important Points to consider: 100% Placement Assistance means only support.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 col-sm-6 col-12 pt-2">
+            <div class="bg-white p-3 align-item-start gap-3">
+                    <img src="images\learn6.svg" alt="">
+                    <div class="bg-white ">
+                        <h4 class="py-2">Get Certification</h4>
+                        <p class="pt-2">UpGrad has a fantastic free Java course with certificate just for you. It covers all the basics, from Java syntax to object-oriented programming—perfect to kickstart your journey! Check it out—your.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-4 mb-3">
+            <div class="text-center">
+                <button class="px-5 py-2 shadow-lg rounded-2">Book Free Class</button>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- -------------feedback------------ -->
+
+ <section class-="container-fluid py-5 mt-5 ">
+    <div class="container bg-white py-5 shadow-lg ">
+        <div class="row text-center">
+            <h2 class="fw-bold">What Our Students<br> Are Saying!</h2>
+            <p class="">Here are some feedback of our studens which are given by our students</p>
+        </div>
+        <div class="row py-2 justify-content-center">
+            <div class="col-lg-5 ">
+                    <div class=" col-sm-12 col-12 bg-white border shadow-lg m-lg-2  rounded-4">
+                        <div class="bg-white p-3 align-item-start gap-3 rounded-4">
+                            <img src="images\student1.svg" class="w-25" alt="">
+                            <div class="bg-white">
+                                <h4 class="fw-bold pt-2 ">Sangram Patil</h4>
+                                <p class="pt-2 text-justify">My experience with Simplilearn was very good. Each topic was innovative and interesting, with quality content. After completing the full stack java developer course, I landed a new job with Neo Geo Info Technologies with a 30% salary hike.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-5  ">
+                <div class=" col-sm-12 col-12 bg-white border shadow-lg m-lg-2 rounded-4">
+                    <div class="bg-white m-4 align-item-start gap-3 ">
+                        <img src="images\student1.svg" class="w-25" alt="">
+                        <div class="bg-white">
+                            <h4 class="fw-bold pt-2 ">Sangram Patil</h4>
+                            <p class="pt-2 text-justify">My experience with Simplilearn was very good. Each topic was innovative and interesting, with quality content. After completing the full stack java developer course, I landed a new job with Neo Geo Info Technologies with a 30% salary hike.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+ </section>
+ <!-- ---------------------------------- -->
+<setion class="container-fluid py-5 ">
+    <div class="container faqsec py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-center fw-bold">JAVA Fullstack Coding Course <br>FAQs</h2>
+                <p class="text-center">
+                    A Java full stack developer can work as a full stack developer, backend developer, frontend
+                    developer, UI developer, or software developer.
+                </p>
+                <div class="accordion" id="accordionExample">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                What is Java Fullstack Development?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Java Full Stack Development refers to the development of both front-end (client-side)
+                                and back-end (server-side) parts of a web application. This involves using Java
+                                programming language for server-side development, along with front-end technologies like
+                                HTML, CSS, JavaScript, and frameworks like Angular.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                What is Front-End Development?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Front-end developers use coding and design techniques to create the graphical user
+                                interface (GUI) that users interact with. This includes elements like buttons, text
+                                boxes, images, graphs, tables, and navigational menus.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                What is Java Back-End Development?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Back-end development is the process of working on the server-side software of a website,
+                                which is everything that's not visible to the user. Back-end developers ensure that a
+                                website functions correctly by focusing on: Databases, Back-end logic, Application
+                                programming interfaces (APIs), Architecture, and Servers.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                What is database management system?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In a database management system (DBMS), a backup is a copy of a database that is kept in
+                                a separate location. Backups are used to restore data in case of an emergency, such as a
+                                system failure or outage.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 mb-3">
+                        <div class="text-center">
+                            <button class="px-5 py-2 shadow-lg rounded-2">Book Free Class</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</setion>
+
+<!-- ------------- -->
+
+
+<section class="container-fluid py-5 company">
+    <div class="container">
+           
+        <div class="row compa ">
+            <div class="pt-5">
+                <h2 class="text-center fw-bold pt-4">Top Companies Hiring JAVA FullStack in India</h2>
+            </div>
+            <div class=" col-12 col-lg-12 comp gap-3 py-4 pt-4 ">
+                
+                <img src="images\TCS.png" class=" px-lg-4 shadow-lg bg-white rounded-2"  alt="">
+                <img src="images\WIPRO.png" class="px-lg-4 shadow-lg bg-white rounded-2" alt="">
+                <img src="images\INFOSYS.png" class="px-lg-4  shadow-lg bg-white rounded-2" alt="">
+                <img src="images\GOOGLE.png" class="px-lg-4 shadow-lg bg-white rounded-2" alt="">
+            </div>
+           
+        </div>
+    </div>
+
+</section>
+
+<!-- -------------------------- -->
+ <section class="container-fluid py-5 bg-black ">
+    <div class="container footer text-center">
+        <div class="row foot">
+            <div class="">
+                <img src="images\footer_logo.png" alt="">
+            </div>
+        </div>
+        <div class="row desc">
+            <div class="col-12">
+                <p class="py-4 text-center">Build your own Full-Stack Developer job description using our guide on the top Full-Stack Developer skills, education, experience and more.</p>
+            </div>
+        </div>
+        <hr class="shadow-lg my-4  ">
+        <div class="row ">
+            <div class="col-lg-12">
+                <p class="text-center">This Website is handled by Sangram Patil &copy; 2025</p>
+            </div>
+        </div>
+    </div>
+
+ </section>
+ <!-- ---------------------------------- -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+
+</html>

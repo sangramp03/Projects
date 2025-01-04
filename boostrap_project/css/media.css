@@ -1,0 +1,116 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+.btn-outer{
+
+    position:fixed;
+    bottom: 0px !important;
+    align-items: center;
+    width:100%;
+    left:0px;
+    background: white;
+    padding:5px 0px;
+    justify-content: center !important;
+}
+
+.watsappbtn, .callbtn{
+
+    padding:7px 15px;
+    font-size:14px;
+}
+
+.bannercontent h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35px;
+}
+
+/* .bannercontent br{
+    display:none;
+} */
+
+.bannercontent p ,.bannercontent ul li{
+    font-size:16px;
+}
+
+.bannercontentbtn{
+    flex-direction: column;
+}
+.bannercontentbtn button{
+    width:100%;
+}
+
+.bannerform{
+    padding:20px;
+
+}
+.modal-body ul li{
+    font-size:10px;
+}
+
+.features-section h2{
+    color:#0A2134;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.features-section p{
+    font-size: 14px;
+}
+
+.option-section h2{
+    color:#0A2134;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+
+.certi_info p{
+    font-size:16px;
+}
+.certi_info h4{
+    font-size:28px;
+    font-weight: bold;
+}
+.certi_info img{
+    justify-content: center;
+}
+.certificate img{
+    
+    margin-left:0px;
+}
+
+.Curriculum ul li{
+    font-size:10px;
+}
+
+.Curriculum p{
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.company .comp{
+    display:inline-flex;
+    flex-direction:column;
+    padding: 40px 0px;
+    align-items: center;
+}
+.company .comp img{
+    width:60%;
+    height:100%;
+}
+
+.footer .foot img{
+    width:60%;
+    height:100%;
+    
+}
+
+}
+
+@media (min-width: 1400px) {
+    .container,.container-lg, .container-md.container-sm, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}

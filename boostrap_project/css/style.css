@@ -1,0 +1,303 @@
+*{
+    font-family: "Inter", serif;;
+}
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+.emailbtn{
+        border:1px solid  rgb(73, 68, 68);
+        border-radius:5px;
+        padding:10px 18px;
+        color:rgb(162, 10, 10);
+}
+
+.emailbtn:hover{
+    border:2px solid rgb(73, 68, 68);
+}
+
+.emailbtn i{
+    color:rgb(162, 10, 10);
+}
+
+.callbtn{
+        border:1px solid rgb(87, 213, 87) ;
+        border-radius:5px;
+        padding:10px 18px;
+        color:rgb(61, 155, 61);
+        background-color: rgb(236, 235, 233);
+        border-radius:10px;
+}
+
+.callbtn:hover{
+    border:2px solid rgb(16, 16, 16);
+}
+.callbtn:active{
+    border:2px solid rgb(7, 64, 28);
+}
+
+.bannercontent h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+
+.bannercontent h1 span{
+    color:rgb(161, 79, 151);
+    background: url("../images/line.png") no-repeat bottom ;
+}
+
+.bannercontent p{
+    font-size:22px;
+}
+
+.bannercontent ul{
+    list-Style:none;
+}
+
+.bannercontent ul li{
+    font-size:22px;
+}
+
+.bannercontent ul li i{
+    color:rgb(161, 79, 151);
+}
+
+.bannercontentbtn button{
+    width:50%;
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    color: white;
+    border-radius: 5px;
+    padding:10px opx;
+    height:40px;
+}
+
+.bannercontentbtn button:first-child{
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    color: white;
+    border-radius: 5px;
+    padding:10px opx;
+    height:40px;
+}
+
+.bannerform{
+    padding:40px;
+    border-radius: 30px 0px;
+}
+
+.bannerform h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bannerform button{
+    width:100%;
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    color: white;
+    border-radius: 10px;
+    padding:10px opx;
+    height:40px;
+}
+
+.countersection h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(161, 79, 151);
+}
+
+
+
+.modal-body  ul{
+    list-Style:none;
+}
+
+.modal-body ul li{
+    font-size:16px;
+}
+
+.modal-body ul li i{
+    color:rgb(161, 79, 151);
+}
+
+.modal-footer button{
+
+    background:rgb(161, 79, 151);
+}
+
+.modal-footer button:hover{
+
+    background:rgb(161, 79, 151);
+}
+
+.modal-footer button:active{
+
+    background:rgb(161, 79, 151);
+}
+
+.features-section{
+    background-color: rgb(246, 231, 244);
+}
+
+.features-section h2{
+    color:#0A2134;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.features-section p{
+    font-size: 18px;
+}
+
+.h1 h4{
+    font-size: 20px;
+    font-weight:bold;
+}
+.h1 img{
+    background-color: rgb(234, 227, 234);
+    width: 25%;
+}
+.btn {
+
+    width:auto;
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    border-radius: 5px;
+    height:40px;
+    border:2px solid black; 
+    color:white;
+}
+.btn button:hover{
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    border:2px solid black;
+    color:white;
+}
+
+.option-section{
+    background-color: white;
+}
+
+.h2 h4{
+    font-size: 18px;
+    font-weight:bold;
+   
+}
+.h2 img{
+    background-color: rgb(244, 240, 240);
+    width: 25%;
+    border:.5px solid rgb(220, 213, 213);
+    box-shadow: #0A2134;
+    border-radius: 10px;
+}
+
+.option-section p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.option-section h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.Certification{
+    background-color:rgb(246, 231, 244);
+}
+
+.certi_info p{
+    font-size:18px;
+    text-align: justify;
+}
+
+.certi_info h4{
+    font-size:28px;
+    font-weight: bold;
+}
+.certi_info h2{
+    font-size:44px;
+    font-weight: bold;
+}
+
+.certi_info button{
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+    color:white;
+}
+
+.faqsec{
+    background-color:rgb(246, 231, 244);
+    margin-top: 50px;
+}
+
+.faqsec button{
+    color:white;
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+}
+
+.Curriculum ul{
+    list-Style:none;
+}
+
+.Curriculum ul li{
+    font-size:22px;
+   
+}
+
+.Curriculum ul li button{
+    outline:none !important;
+}
+
+.Curriculum ul li i{
+    color:rgb(161, 79, 151);
+}
+
+.Curriculum p{
+    font-size: 22px;
+}
+
+
+.learn{
+    background-color:rgb(246, 231, 244);
+}
+
+.learn .about h4{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.learn .about p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.learn button{
+    background: linear-gradient(rgb(161, 79, 151),rgb(248, 88, 229));
+}
+
+.company .compa{
+    background-color:rgb(246, 231, 244);
+}
+.company .comp{
+    display:flex;
+}
+
+.company .comp img{
+    width:25%;
+    height:50%;
+}
+
+.footer .foot img{
+    width:25%;
+    height:75%;
+    
+}
+
+.footer  p{
+    color:white;
+    text-align: justify;
+}
+
+.footer hr{
+    color:white;
+    height:5px;
+}
